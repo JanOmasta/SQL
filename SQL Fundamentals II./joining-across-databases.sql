@@ -4,4 +4,4 @@ USE sql_store;
 SELECT *
 FROM order_items oi 
 INNER JOIN sql_inventory.products p					-- Needed to prefix the column from different database (sql_inventory).  
-		  ON oi.product_id = p.product_id  
+          ON oi.product_id = p.product_id  
