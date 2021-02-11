@@ -2,7 +2,7 @@
 USE sql_hr;
 
 SELECT
-	e.employee_id,
+    e.employee_id,
     e.first_name,
     e.last_name,
     m.first_name AS manager
