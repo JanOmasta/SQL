@@ -1,5 +1,5 @@
 SELECT 
-	c.customer_id,
+    c.customer_id,
     c.first_name,
     o.order_id,
     sh.name AS shipper
