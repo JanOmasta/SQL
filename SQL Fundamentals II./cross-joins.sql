@@ -2,7 +2,7 @@
 USE sql_store;
 
 SELECT 
-	c.first_name,				-- All combinations of Customer Name and the products.
+    c.first_name,			-- All combinations of Customer Name and the products.
     c.last_name,
     p.name AS product
 FROM customers c
