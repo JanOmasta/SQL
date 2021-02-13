@@ -3,7 +3,7 @@ USE sql_invoicing;
 
 CREATE TABLE invoices_archived AS
 SELECT
-	i.invoice_id,
+    i.invoice_id,
     i.number,
     c.name AS client,
     i.invoice_total,
